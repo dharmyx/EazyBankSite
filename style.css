@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.main {
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.header-content {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    z-index: 1;
+    top: 0;
+}
+
+.eazi-logo {
+    margin: 1.2rem;
+}
+.intro-eazymockup {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/images/image-mockups.png), url(img/images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+.intro-text {
+    text-align: center;
+}
+.next {
+    font-size: 2.3rem;
+    color: #252541;
+    line-height: normal;
+    padding: 2rem 0 1rem 0;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+}
+
+p {
+    font-size: .9rem;
+    color: #8e8d92;
+    margin: auto;
+    line-height: 1.8;
+    width: 80%;
+}
+
+.btn {
+    padding: .8rem 2.3rem;
+    border-radius: 30px;
+    margin: 2rem 0 5rem 0;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    background-color: #34cc77;
+    background-image: linear-gradient(to right, #34cc77, #29bacb);
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover {
+    animation: pulse 3s;
+}
+@keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+.eazy-contents {
+    background-color: #f4f5f7;
+    text-align: center;
+}
+
+.why {
+    font-size: 2rem;
+    color: #252541;
+    line-height: normal;
+    width: 50%;
+    margin: auto;
+    padding: 4rem 0 1rem 0;
+}
+
+img {
+    margin: 3rem 0 0 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #252541;
+    padding: 1.5rem 0;
+}
+.open {
+    padding-bottom: 5rem;
+}
+.eazy-articles {
+    text-align: center;
+    background-color: #fafafa;
+    margin: 6rem 0;
+}
+
+.latest {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #252541;
+    line-height: normal;
+    width: 50%;
+    margin: auto;
+}
+
+.img1 {
+    background-image: url(img/images/image-currency.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    height: 45vh;
+    border-radius: 10px 10px 0 0;
+    margin: 2.5rem auto 0;
+}
+.img2 {
+    background-image: url(img/images/image-restaurant.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    height: 45vh;
+    border-radius: 10px 10px 0 0;
+    margin: 2.5rem auto 0;
+}
+.img3 {
+    background-image: url(img/images/image-plane.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    height: 45vh;
+    border-radius: 10px 10px 0 0;
+    margin: 2.5rem auto 0;
+}
+.img4 {
+    background-image: url(img/images/image-confetti.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    height: 45vh;
+    border-radius: 10px 10px 0 0;
+    margin: 2.5rem auto 0;
+}
+
+.ref {
+    width: 80%;
+    margin: auto;
+    text-align: start;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.by {
+    font-size: .8rem;
+    color: #d8d8da;
+    padding: 10px 0;
+}
+h4 {
+    font-weight: 500;
+    color: #4b4b4e;
+    padding: 10px 0;
+}
+.the,
+.simp,
+.we,
+.our {
+    margin: 0;
+    width: 100%;
+}
+
+.footer-contents {
+    text-align: center;
+    background-color: #2d314e;
+}
+div .footer-socails img {
+    width: 2.5rem;
+    height: 5.5rem;
+}
+.foot-nav {
+    margin: 20px 0;
+}
+
+.about a,
+.contact a,
+.blog a,
+.careers a,
+.support a,
+.privacy a {
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn1 {
+    padding: .9rem 2.3rem;
+    border-radius: 30px;
+    margin: 1rem 0;
+    font-size: .8rem;
+    font-weight: 900;
+    color: #ffffff;
+    border: none;
+    background-color: #34cc77;
+    background-image: linear-gradient(to right, #34cc77, #29bacb);
+    cursor: pointer;
+    outline: none;
+}
+.btn1:hover {
+    animation: pulse 3s;
+}
+@keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+.copyright {
+    padding: 50px 0;
+    color: #aaa;
+}
+.copyright h5 {
+    padding: 10px 0;
+}
+
+.copyright h6 {
+    padding: 10px 0;
+}
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/images/icon-facebook.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    
+}
+.youtube {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/images/icon-youtube.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    
+}
+.twitter {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/images/icon-twitter.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+   
+}
+.pinterest {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/images/icon-pinterest.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    
+}
+.instagram {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/images/icon-instagram.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
